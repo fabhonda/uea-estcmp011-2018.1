@@ -1,0 +1,32 @@
+LISTA EXERCÍCIO 2: FUNÇÕES
+
+1) i do tipo inteiro recebe 99, o ponteiro *p aponta para o endereço de i após recebê-lo no comando p=&i e j recebe 99 (valor de i, no qual o *p está apontando para este endereço) + 100, resultando em 199.
+
+2) a recebe 5, b recebe 12, o ponteiro *p recebe o endereço de a e começa a apontar para o mesmo e *q recebe o endereço de b e começar a apontar para o mesmo. Um int c é declarado e resulta em 17, a somatória entre *p e *q, respectivamente apontados para a e b.
+
+3) 
+
+
+
+
+4) FALSO: e) pti é igual a 10. 
+   JUSTIFICATIVA: pti é igual ao endereço da variável i e não o seu valor
+
+5) ILEGAL: *p = &j
+   JUSTIFICATIVA = *p recebe valores e p recebe endereços, não o contrário
+
+6) FALSO: d)pti[1] é igual a 10
+   JUSTIFICATIVA: pti[1] é igual a 7 e pti[0] que é igual a 10
+
+7) a)
+   b)
+
+8) a)*(M1+2)
+
+9) i = 0   vet[0] = 1.1  *(f+0) = 1.1  &vet[0] = (endereço)  (f+0) = (endereço + 0)
+   i = 1   vet[0] = 2.2  *(f+1) = 2.2  &vet[1] = (endereço)  (f+1) = (endereço + 1)
+   i = 2   vet[0] = 3.3  *(f+2) = 3.3  &vet[2] = (endereço)  (f+2) = (endereço + 2)
+   i = 3   vet[0] = 4.4  *(f+3) = 4.4  &vet[3] = (endereço)  (f+3) = (endereço + 3)
+   i = 4   vet[0] = 5.5  *(f+4) = 5.5  &vet[4] = (endereço)  (f+4) = (endereço + 4)
+
+10) 
